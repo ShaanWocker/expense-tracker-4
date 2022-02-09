@@ -1,0 +1,14 @@
+/* Header */
+.header {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.list li.plus {
+    border-right: 5px solid #2ecc71;
+}
+  
+.list li.minus {
+    border-right: 5px solid #c0392b;
+}
+  
