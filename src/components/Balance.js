@@ -13,11 +13,11 @@ export const Balance = () => {
 
 
   return (
-    <>
+    <div className='container p-2'>
       <h4>Your Balance</h4>
-      <h1>R{total}
+      <h1 >R{total}
       </h1>
-    </>
+    </div>
   );
 };
 

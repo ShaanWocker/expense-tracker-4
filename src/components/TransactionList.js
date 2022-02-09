@@ -7,7 +7,7 @@ const TransactionList = () => {
   const { transactions } = useContext(GlobalContext)
 
   return (
-    <>
+    <div className='container'>
       <h3>History</h3>
       <ul className='list'>
         {transactions && transactions.map(transaction => (
@@ -15,7 +15,7 @@ const TransactionList = () => {
         ))}
         
       </ul>
-    </>
+    </div>
   );
 };
 
